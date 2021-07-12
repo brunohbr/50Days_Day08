@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(12, 98, 209), rgb(77, 153, 253 ));
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+    
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline: 0;
+}
+
+.btn:active{
+    transform: scale(0.98);
+    background: rgb(188, 229, 243);
+}
+.text{
+    margin-top: 30px;
+}
+.form-control{
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form-control input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0 ;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-control input:focus, .form-control input:valid{
+    outline: 0;
+
+}
+
+.form-control label{
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
