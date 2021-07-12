@@ -20,12 +20,12 @@ body{
 .container{
     background: linear-gradient(
         to right bottom,
-         rgba(177, 160, 240, 0.4),
-         rgba(81, 88, 110, 0.2) );
+         rgba(139, 111, 238, 0.4),
+         rgba(6, 80, 12, 0.2) );
     padding: 20px 40px;
     border-radius: 5px;
     backdrop-filter: blur(0.5rem);
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0 0 2px 2px rgba(10, 10, 10, 0.3) ;
 }
 
 .container h1{
